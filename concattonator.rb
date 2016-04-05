@@ -13,5 +13,5 @@ master_file = File.new("Year.txt", "w")
 master_file << entries.each do |file|
   entry = File.read(file)
   master_file << entry
-  master_file << "\n\n ---End of File--- \n\n"
+  master_file << "\n\n ---End of Month--- \n\n"
 end
